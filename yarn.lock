@@ -17,6 +17,11 @@
   resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.15.10.tgz#78a42897c2cf8db9fd5f1811f7590393b77774c7"
   integrity sha512-w0Ou3Z83LOYEkwaui2M8VwIp+nLi/NA60lBLMvaJ+vXVMcsARYdEzLNE7RSm4+lSg4zq4d7fAVuzk7PNQ5JFgg==
 
+"@regosen/gapless-5@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@regosen/gapless-5/-/gapless-5-1.5.0.tgz#5e87bb4b7f9b5371eca7f4ba1838fcb89924ff34"
+  integrity sha512-a93ruTYyiV6TXHUKTQVL4mGMCJ3Lrc+PV5VuwfxmznpaTWC3+noWQX2zFzHFWN68X7B/oLUDBemetf0Uwp2WJg==
+
 "@rollup/plugin-inject@^4.0.4":
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-inject/-/plugin-inject-4.0.4.tgz#fbeee66e9a700782c4f65c8b0edbafe58678fbc2"

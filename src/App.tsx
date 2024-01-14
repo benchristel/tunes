@@ -1,12 +1,18 @@
 import {h} from "preact"
 import "./app.css"
+import {Gapless5} from "@regosen/gapless-5"
+
+const player = new Gapless5({loop: true})
+player.addTrack("beats.ogg")
 
 export function App() {
-  return <h1>Hello from Preact!</h1>
-}
+  function play() {
+    player.play()
+  }
 
-test("App", {
-  "renders a greeting"() {
-    expect(App().props.children, equals, "Hello from Preact!")
-  },
-})
+  return (
+    <div>
+      <button onClick={play}>Play</button>
+    </div>
+  )
+}
